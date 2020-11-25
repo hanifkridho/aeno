@@ -34,7 +34,7 @@ client.on('guildMemberAdd', member => {
 
 
 client.on('message', msg => {
-    if (msg.content.toLowerCase().includes('anjing')||msg.content.toLowerCase().includes('bangsat')||msg.content.toLowerCase().includes('jancuk')||msg.content.toLowerCase().includes('asu')||msg.content.toLowerCase().includes('kontol')) {
+    if (msg.content.toLowerCase().includes('anjing')||msg.content.toLowerCase().includes('bangsat')||msg.content.toLowerCase().includes('jancuk')||msg.content.toLowerCase().includes('bajingan')||msg.content.toLowerCase().includes('kontol')) {
       msg.reply('Ga suka aku kalo kamu ngomong gitu :(');
     }
   });
